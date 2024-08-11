@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+header {
+  height: 100%;
+  width: 100%;
+  background-image: url(images/header-bg.png);
+  background-size: cover;
+  background-position: bottom;
+}
+#navlist {
+  text-align: center;
+}
+.head-content {
+  color: whitesmoke;
+  text-align: center;
+  position: relative;
+  top: 35%;
+}
+.head-content h1 {
+  font-size: 6vmin;
+}
+.head-content .line {
+  width: 30vmin;
+  height: 3px;
+  background-color: deeppink;
+  margin: 10 auto;
+  border-radius: 3px;
+}
+.head-content h2 {
+  font-size: 9vmin;
+  margin: 20px 0;
+}
+.button {
+  background-color: deeppink;
+  padding: 8px 12px;
+  border-radius: 30px;
+  border: none;
+  color: whitesmoke;
+}
+
+/*aside**************************/
+
+aside {
+  height: auto;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+aside .container .line {
+  width: 30vmin;
+  height: 3px;
+  background-color: deeppink;
+  margin: 10 auto;
+  border-radius: 3px;
+}
+aside .container h1 {
+  text-align: center;
+}
+#event-cards {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: transform 0.2s ease-in;
+}
+#event-cards:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/*section******************/
+
+section {
+  height: 100%;
+  width: 100%;
+  background-image: url(images/bg2.png);
+  background-position: center;
+  background-size: cover;
+}
+section .container {
+  position: relative;
+  top: 30%;
+}
+section .container .line {
+  width: 30vmin;
+  height: 3px;
+  background-color: deeppink;
+  border-radius: 3px;
+}
+section .container h1 {
+  font-size: 6vmin;
+}
+
+/*main*******************/
+main {
+  height: auto;
+  width: 100vw;
+  box-sizing: border-box;
+}
+main #content-col {
+  flex-direction: column;
+}
+main #content-col,
+#img-col {
+  margin: 10px auto;
+}
+main figure img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+main img {
+  transition: transform 0.2s ease-in;
+}
+main img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/*footer*****************/
+footer {
+  width: 100%;
+  height: auto;
+  background-color: rgb(48, 41, 41);
+  text-align: center;
+  color: white;
+  padding: 30px auto;
+}
